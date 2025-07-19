@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Fresh Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="custom-navbar-wrapper">
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="profile-circle">
+          <img src="images/logo.jpg" alt="Abdulkareem" class="profile-img">
+        </div>
+        <span class="brand-name">Fresh Tech</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item">
+              
+              
+              <a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <!-- Projects Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="page-hero-content">
+                        <h1 class="page-title">My Projects</h1>
+                        <p class="page-subtitle">A showcase of my recent work and creative solutions</p>
+                        <div class="project-filter">
+                            <button class="filter-btn active" data-filter="all">All Projects</button>
+                            <button class="filter-btn" data-filter="web">Web Apps</button>
+                            <button class="filter-btn" data-filter="backend">Backend</button>
+                            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+        <div class="container">
+            <div class="row">
+                <!-- Fresh Hub -->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/freshhub.jpg" alt="Freshhub">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:16px;">Fresh-Hub : Multipurpose Gaming Platform</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>Fresh Hub is a multi-feature webapp for fun, connection, and creativity.
+Play exciting mini games and chat with an intellyigent AI assistant.
+Watch or hh streams and engage with your audience in real-time.
+Manage your digital funds securely with an integrated wallet.
+Explore blogs for the latest trends, tips, and community stories.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Livestream – Watch or host live events and connect with others in real-time</li>
+                                    <li>Wallet – A secure digital wallet to manage your in-app earnings or purchases</li>
+                                    <li>AI Chatbot – Get instant help, ideas, or just have a smart conversation</li>
+                                    <li>Blog – Stay updated with trending articles, tips, and stories from the community</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Firebase Firestore</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                <span class="tech-tag">Firebase auth</span>
+                                <span class="tech-tag">Livekeeper</span>
+   <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://freshhubweb.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>freshhub.app
+    </a>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Finance Tracker-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/finance.jpg" alt="finance tracker">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:16px;">Personal Finance Tracker</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>Take control of your finances with the Personal Finance Tracker App, your all-in-one solution for managing income, expenses, savings, and budgets. Whether you're tracking daily spending, planning monthly budgets, or setting long-term financial goals, this app provides powerful tools with a clean and user-friendly interface..</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Budget Management – Set and monitor spending limits across categories like food, transport, entertainment, and more.</li>
+                                    
+ <li>Expense & Income Tracking – Log transactions effortlessly and categorize them for clear insights.</li>                                
+                                    <li>Visual Reports – View charts and summaries that make it easy to understand your financial habits.</li>
+                                    <li>Savings Goals – Create personalized savings goals and track your progress over time.
+</li>
+                                    <li>Multi-Device Sync & Backup – Access your data across devices and never lose your financial history.</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                
+                          
+                                <span class="tech-tag">Firebase Storage</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                <span class="tech-tag">Firebase Auth</span>
+                                  <!-- Go to Button -->
+<!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://personalfinancetrackerapp.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>financetracker.app
+    </a>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resume Builder App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/resume.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Resume Builder App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>Resume Builder App is a powerful and easy-to-use tool that helps users create professional, job-ready resumes in minutes. With customizable templates, step-by-step guidance, and modern design options, users can showcase their skills, experience, and education effortlessly</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Choose from a variety of modern and ATS-friendly resume templates designed to impress recruiters and hiring managers.</li>
+                                    <li>Get real-time tips and suggestions while filling in your details, ensuring a polished and effective resume every time.</li>
+                                    <li>Easily export your resume as a PDF and share it directly via email, social media, or job portals.
+</li>
+                                    <li>Add custom sections like certifications, projects, or portfolios, and personalize fonts, colors, and layout to match your style.</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://resumebuilderproapp.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>resumebuilder.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Qr code App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/qr.jpg" alt="qr app">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:17px;">Qr Code Viewer And Generator</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>A simple and powerful web app that lets you create and scan QR codes instantly. Whether you're sharing links, contact details, or event info, this tool makes it easy and fast to generate and read QR codes using any device</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Instantly create QR codes for URLs, text, email, Wi-Fi, or phone numbers.</li>
+                                    <li>Scan any QR code using your device's camera directly in the browser.</li>
+                                    <li>Save generated QR codes as images for offline use or share them instantly.
+</li>
+                                    <li>Works seamlessly on both mobile and desktop with a clean, user-friendly interface.</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://qrcodeviewer.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>qrcodemaker.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Ai post generator App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/post.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">AI Post Generator</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>Automatically craft engaging social media posts, blog intros, or captions using AI. Perfect for marketers, influencers, and content creators.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Generate content from keywords or ideas</li>
+                                    <li>Choose tone (professional, fun, casual, etc.)</li>
+                                    <li>Platform-optimized outputs (Instagram, Twitter, etc.)
+</li>
+                                    <li>Copy and export posts easily</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://post-generatorai.netlify.app" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>aipostgenerator.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+                <!-- E-Commerce Platform -->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3987758/pexels-photo-3987758.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:17px;">E-Commerce Platform</h3>
+                                <div class="project-status">
+                                    <span class="status-badge in-progress">Ongoing</span>
+                                </div>
+                            </div>
+                            <p>A modern e-commerce platform with advanced features including product catalog, shopping cart, payment integration, and comprehensive admin dashboard for inventory management.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Product catalog with search and filtering</li>
+                                    <li>Shopping cart and checkout system</li>
+                                    <li>Payment gateway integration</li>
+                                    <li>Admin dashboard for inventory management</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">Firebase Auth</span>
+                               
+                                <span class="tech-tag">Tailwind Css</span>
+                               
+                                <!-- Go to Button -->
+<div style="margin-top: 20px;">
+    <a href="https://goshopping1.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>goshopping.app
+    </a>
+</div> </div>
+                        </div>
+                    </div>
+                </div>
+ <!-- Convertor app App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/converter.jpg" alt="converter app">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">General Converter App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>A multi-purpose converter that handles units, currency, measurements, and more—all in one place.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Convert length, weight, temperature, and volume</li>
+                                    <li>Currency converter with live exchange rates</li>
+                                    <li>Clean interface with category switching
+</li>
+                                    <li>Offline conversion support</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">Exchange API</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://genearalconverterapp.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>generalconverter.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Receipt Maker App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/receipt.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Receipt Maker App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>Create professional-looking receipts for any transaction quickly and easily with customizable fields.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Add custom logo, items, prices, and taxes.</li>
+                                    <li>Choose currency and formatting.</li>
+                                    <li>Download as PDF or image.
+</li>
+                                    <li>Save and reuse receipt templates.</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">React.js</span>
+                                
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://receiptmakerapp.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>receiptmaker.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Testimony Poster App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/testimony.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Testimony Poster App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>Easily design and generate posters to showcase personal or business testimonies with photos and captions.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Upload photo and write custom testimony</li>
+                                    <li> Choose from elegant poster templates</li>
+                                    <li>Customize fonts, colors, and layout
+</li>
+                                    <li>Download as high-quality image for sharing</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Firebase Auth</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://testimonyposter.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>testimonypostermaker.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!--Image Generator  App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/image.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Image Generator App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge in-progress">Ongoing</span>
+                                </div>
+                            </div>
+                            <p>A creative tool that transforms text prompts into stunning images using AI. Ideal for design inspiration, concept art, and visual storytelling.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Generate images from any text prompt</li>
+                                    <li>Multiple style options (realistic, cartoon, abstract, etc.)</li>
+                                    <li>Download high-resolution images
+</li>
+                                    <li>History of generated images for reuse</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">OPEN AI API</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://imagegeneratorwebapp.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>imagegenerator.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Fresh Hub Ai App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/ai.jpg" alt="ai">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Fresh Hub AI App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>An intelligent chatbot that responds to user queries, gives information, and holds conversations just like a human assistant.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Natural and human-like conversation</li>
+                                    <li>Answers general knowledge and custom queries</li>
+                                    <li>Supports follow-up questions
+</li>
+                                    <li>Works on mobile and desktop
+</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">GEMINI API</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Typescript</span>
+                         
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 25px;">
+    <a href="https://auxfresh.github.io/freshhub/freshai.html" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>freshhubai.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Go Learning App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/learning.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Go Learning App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge in-progress">Ongoing</span>
+                                </div>
+                            </div>
+                            <p>A smart learning platform that helps users master subjects through interactive lessons, quizzes, and progress tracking.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Subject-based lessons with explanations</li>
+                                    <li>Timed quizzes and instant feedback</li>
+                                    <li>Track learning progress and scores
+</li>
+                                    <li>Gamified achievements and badges</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                              
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 19px;">
+    <a href="https://go-learning1.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>golearning.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- Fresh Stream App-->
+                <div class="col-lg-6 mb-5 project-item" data-category="fullstack web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/stream.jpg" alt="Resume Builder">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:18px;">Fresh Stream App</h3>
+                                <div class="project-status">
+                                    <span class="status-badge in-progress">Ongoing</span>
+                                </div>
+                            </div>
+                            <p>Watch live football matches, highlights, and replays from top leagues around the world in one seamless app.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Live streaming with HD quality</li>
+                                    <li>Match highlights and full replays</li>
+                                    <li>Real-time match stats and scores
+</li>
+                                    <li>Notifications for upcoming games</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">BLUEBIRD API</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">Firebase Auth</span>
+                                <span class="tech-tag">Tailwind Css</span>
+                                
+                                <!-- Go to Button -->
+       <!-- Go to Button -->
+<div style="margin-top: 19px;">
+    <a href="https://freshstream.netlify.app/" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>freshstream.app
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+                <!-- Task Management API -->
+                <div class="col-lg-6 mb-5 project-item" data-category="backend">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Task Management API">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:17px;">Task Management REST API</h3>
+                                <div class="project-status">
+                                    <span class="status-badge in-progress">Ongoing</span>
+                                </div>
+                            </div>
+                            <p>A robust RESTful API for task management with user authentication, task CRUD operations, team collaboration features, and comprehensive documentation.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>RESTful API design with proper endpoints</li>
+                                    <li>JWT-based authentication system</li>
+                                    <li>Team collaboration and task assignment</li>
+                                    <li>Comprehensive API documentation</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">REST API</span>
+                                <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="#" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>visit
+    </a>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website -->
+                <div class="col-lg-6 mb-5 project-item" data-category="web">
+                    <div class="project-card-large">
+                        <div class="project-image">
+                            <img src="images/portfolio.png" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 style="font-size:17px;">Personal Portfolio Website</h3>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <p>A modern, responsive portfolio website showcasing my skills, projects, and experience. Built with clean design principles and optimized for performance across all devices.</p>
+                            <div class="project-features">
+                                <ul>
+                                    <li>Responsive design with modern aesthetics</li>
+                                    <li>Smooth animations and interactions</li>
+                                    <li>SEO optimized and performance focused</li>
+                                    <li>Contact form with email integration</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                
+                                <span class="tech-tag">Bootstrap</span>
+                                <!-- Go to Button -->
+<div style="margin-top: 12px;">
+    <a href="https://your-live-app-link.com" target="_blank" class="go-to-button-small">
+        <i class="fas fa-arrow-up-right-from-square"></i>myportfolio.app</a>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="cta-content">
+                        <h2>Have a Project in Mind?</h2>
+                        <p>Let's discuss how we can bring your ideas to life with clean, efficient, and scalable solutions.</p>
+                        <div class="cta-buttons">
+                            <a href="contact.html" class="btn btn-primary-custom">
+                                <i class="fas fa-paper-plane"></i>
+                                Start a Project
+                            </a>
+                            <a href="services.html" class="btn btn-outline-custom">
+                                <i class="fas fa-cogs"></i>
+                                View Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <h5>Dapo-Wahab Ayatullahi</h5>
+                        <p>Full-Stack Developer & Web Designer based in Nigeria, passionate about creating innovative web solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Backend Development</a></li>
+                        <li><a href="services.html">Database Design</a></li>
+                        <li><a href="services.html">API Development</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6>Get In Touch</h6>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> ayatullahiayobami@gmail.com </p>
+                        <p><i class="fas fa-phone"></i> +234 (0) 904 964 0837</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Ogun State, Nigeria</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://github.com/auxfresh" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://ng.linkedin.com/in/ayatullahi-ayobami-237948375" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/justonefresh?igsh=ZnJtem1nNjNlbHd2" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2025 Dapo-Wahab Ayatullahi. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Made with <i class="fas fa-heart text-danger"></i> in Nigeria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
