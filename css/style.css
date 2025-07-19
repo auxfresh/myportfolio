@@ -1214,7 +1214,7 @@ img {
 
 .learning-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
     gap: var(--spacing-xl);
 }
 
@@ -1223,9 +1223,9 @@ img {
     align-items: center;
     gap: var(--spacing-lg);
     text-align: left;
-    background: var(--light-gray);
-    padding: var(--spacing-xl);
-    border-radius: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 2px;
     transition: var(--transition-fast);
 }
 
@@ -2819,4 +2819,3 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-pink-dark);
 }
-
